@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>ThaiTrip Thailand Tours & Vacations</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    </head>
+    <Body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="img/logo trip.png"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="trips.html">Trips</a></li>
+                        <li><a href="Blog.html">Blog</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+                <h1>Contact Us</h1>
+            </section>
+
+           <!-- Contact US  -->
+
+           <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13267.316802521538!2d97.63998799611281!3d8.65375059394485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x305a71a2bdeee5fd%3A0xe8d3e2bd15fe3719!2sSimilan%20Islands!5e0!3m2!1sro!2sus!4v1638030903755!5m2!1sro!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </section>
+           <section class="contact-us">
+               <div class="row">
+                   <div class="contact-col">
+                        <div>
+                            <i class="fa fa-home"></i>
+                            <span>
+                                <h5>xyz road </h5>
+                                <p>Similan Islands</p>
+                            </span>
+                        </div>
+                        <div>
+                            <i class="fa fa-phone"></i>
+                            <span>
+                                <h5>+12345678901 </h5>
+                                <p>Monday to Friday, 9AM to 6PM </p>
+                            </span>
+                        </div>
+                        <div>
+                            <i class="fa fa-envelope"></i>
+                            <span>
+                                <h5>email@google.com </h5>
+                                <p>Email us your Queries</p>
+                            </span>
+                        </div>
+                   </div>
+                   <div class="contact-col">
+                       <form action="">
+                    <input type="text"  placeholder="Enter Your Name" required>
+                    <input type="Email"  placeholder="Enter Your Email Address" required>
+                    <input type="text"  placeholder="Enter Your Subject" required>
+                    <textarea rows="8"  placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form>
+                   </div>
+               </div>
+           </section>
+           
+    <!-- Footer -->
+         <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti illo nemo placeat iure, id<br> soluta distinctio cumque impedit rerum, suscipit nisi officiis. Iure placeat molestias culpa laudantium rem maxime saepe.</p>
+            <div class="icons">
+                <i class="fab fa-facebook-square"></i> 
+                <i class="fab fa-instagram"></i> 
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+            <p>Made by R. Alin-Gabriel</p>
+        </section>
+
+
+    <!-- Javascript for Toggle Menu  -->
+        <script>
+            var navlinks = document.getElementById("navlinks");
+
+            function showMenu(){
+                navlinks.style.right="0";
+            }
+            function hideMenu(){
+                navlinks.style.right="-200px";
+            }
+        </script>
+    </Body>
+</html>
+
