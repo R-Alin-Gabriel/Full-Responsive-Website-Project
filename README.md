@@ -20,7 +20,6 @@
 #### Project is created with:
 * Fontawesome v5.10.0
 * Google Fonts 
-* Pictures from https://www.pexels.com/
 
 ### Files Included
 
